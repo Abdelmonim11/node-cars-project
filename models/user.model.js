@@ -9,11 +9,11 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
     firstName: {
         type: String,
-        required: [true, "fill this block mothafuck*r"]
+        required: [true, "fill first name block"]
     },
     lastName: {
         type: String,
-        required: [true, "fill this block mothafuck*r"]
+        required: [true, "fill last name block"]
     },
     email: {
         type: String,
